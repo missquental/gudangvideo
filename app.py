@@ -139,7 +139,7 @@ with tab2:
                     
                 with col2:
                     # URL untuk streaming
-                    stream_url = f"https://gudang.streamlit.app/videos/{row['filename']}"
+                    stream_url = f"https://gudangvideo.streamlit.app/videos/{row['filename']}"
                     st.code(stream_url, language="url")
                     st.markdown(f"[🔗 Link Streaming]({stream_url})")
                     
